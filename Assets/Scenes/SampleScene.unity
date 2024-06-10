@@ -800,7 +800,8 @@ GameObject:
   - component: {fileID: 135397025}
   - component: {fileID: 135397024}
   - component: {fileID: 135397023}
-  m_Layer: 0
+  - component: {fileID: 135397026}
+  m_Layer: 10
   m_Name: Corn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -893,6 +894,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 135397021}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &135397026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 135397021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f56aca4805426034686428431f88e1fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: Corn
 --- !u!1001 &139339674
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1229,7 +1243,8 @@ GameObject:
   - component: {fileID: 182783804}
   - component: {fileID: 182783803}
   - component: {fileID: 182783802}
-  m_Layer: 0
+  - component: {fileID: 182783805}
+  m_Layer: 10
   m_Name: Farmer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1324,6 +1339,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 182783800}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &182783805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182783800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd6f9a58247d3f34e8bdbde4e80d49c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcName: Farmer
 --- !u!1001 &189983664
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1561,7 +1589,8 @@ GameObject:
   - component: {fileID: 257262937}
   - component: {fileID: 257262936}
   - component: {fileID: 257262935}
-  m_Layer: 0
+  - component: {fileID: 257262938}
+  m_Layer: 10
   m_Name: Corn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1654,6 +1683,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 257262933}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &257262938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 257262933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f56aca4805426034686428431f88e1fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: Corn
 --- !u!1 &260194862
 GameObject:
   m_ObjectHideFlags: 0
@@ -1981,7 +2023,8 @@ GameObject:
   - component: {fileID: 340478740}
   - component: {fileID: 340478739}
   - component: {fileID: 340478738}
-  m_Layer: 0
+  - component: {fileID: 340478741}
+  m_Layer: 10
   m_Name: Flower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2074,6 +2117,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 340478736}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &340478741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340478736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f56aca4805426034686428431f88e1fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: Flower
 --- !u!1 &454984328
 GameObject:
   m_ObjectHideFlags: 0
@@ -2086,7 +2142,8 @@ GameObject:
   - component: {fileID: 454984332}
   - component: {fileID: 454984331}
   - component: {fileID: 454984330}
-  m_Layer: 0
+  - component: {fileID: 454984333}
+  m_Layer: 10
   m_Name: Witch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2181,6 +2238,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 454984328}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &454984333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454984328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd6f9a58247d3f34e8bdbde4e80d49c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcName: Witch
 --- !u!1 &461829372
 GameObject:
   m_ObjectHideFlags: 0
@@ -2193,7 +2263,8 @@ GameObject:
   - component: {fileID: 461829376}
   - component: {fileID: 461829375}
   - component: {fileID: 461829374}
-  m_Layer: 0
+  - component: {fileID: 461829377}
+  m_Layer: 10
   m_Name: Corn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2286,6 +2357,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 461829372}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &461829377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 461829372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f56aca4805426034686428431f88e1fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: Corn
 --- !u!1 &464438805
 GameObject:
   m_ObjectHideFlags: 0
@@ -2298,8 +2382,9 @@ GameObject:
   - component: {fileID: 464438809}
   - component: {fileID: 464438808}
   - component: {fileID: 464438807}
-  m_Layer: 0
-  m_Name: Son of Elder
+  - component: {fileID: 464438810}
+  m_Layer: 10
+  m_Name: SonOfElder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2393,6 +2478,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 464438805}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &464438810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464438805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd6f9a58247d3f34e8bdbde4e80d49c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcName: SonOfElder
 --- !u!1 &518987082
 GameObject:
   m_ObjectHideFlags: 0
@@ -2674,7 +2772,8 @@ GameObject:
   - component: {fileID: 574178197}
   - component: {fileID: 574178196}
   - component: {fileID: 574178195}
-  m_Layer: 0
+  - component: {fileID: 574178198}
+  m_Layer: 10
   m_Name: Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2767,6 +2866,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 574178193}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &574178198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574178193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f56aca4805426034686428431f88e1fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: Sword
 --- !u!1 &585967596
 GameObject:
   m_ObjectHideFlags: 0
@@ -2885,7 +2997,8 @@ GameObject:
   - component: {fileID: 593015131}
   - component: {fileID: 593015130}
   - component: {fileID: 593015129}
-  m_Layer: 0
+  - component: {fileID: 593015132}
+  m_Layer: 10
   m_Name: Axe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2978,6 +3091,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 593015127}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &593015132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593015127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f56aca4805426034686428431f88e1fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: Axe
 --- !u!4 &596062440 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d9911aab399ca5546a0ef88fc9fbc47c, type: 3}
@@ -3182,8 +3308,8 @@ Transform:
   - {fileID: 135397022}
   - {fileID: 461829373}
   - {fileID: 340478737}
-  - {fileID: 2080811723}
   - {fileID: 1357409693}
+  - {fileID: 2080811723}
   - {fileID: 1522183963}
   - {fileID: 1811502875}
   - {fileID: 574178194}
@@ -4416,7 +4542,8 @@ GameObject:
   - component: {fileID: 1043778194}
   - component: {fileID: 1043778193}
   - component: {fileID: 1043778192}
-  m_Layer: 0
+  - component: {fileID: 1043778195}
+  m_Layer: 10
   m_Name: Barkeep
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4511,6 +4638,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1043778190}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1043778195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043778190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd6f9a58247d3f34e8bdbde4e80d49c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcName: Barkeep
 --- !u!4 &1045314268 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0f43022aa0f63424cb7b1ae9882027e3, type: 3}
@@ -4693,7 +4833,8 @@ GameObject:
   - component: {fileID: 1091065267}
   - component: {fileID: 1091065266}
   - component: {fileID: 1091065265}
-  m_Layer: 0
+  - component: {fileID: 1091065268}
+  m_Layer: 10
   m_Name: Corn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4786,6 +4927,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1091065263}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1091065268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091065263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f56aca4805426034686428431f88e1fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: Corn
 --- !u!1 &1155615061 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5148817236446094103, guid: d9911aab399ca5546a0ef88fc9fbc47c, type: 3}
@@ -4930,7 +5084,8 @@ GameObject:
   - component: {fileID: 1214954323}
   - component: {fileID: 1214954322}
   - component: {fileID: 1214954321}
-  m_Layer: 0
+  - component: {fileID: 1214954324}
+  m_Layer: 10
   m_Name: Drunkard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5025,6 +5180,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1214954319}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1214954324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214954319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd6f9a58247d3f34e8bdbde4e80d49c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcName: Drunkard
 --- !u!1 &1243406585
 GameObject:
   m_ObjectHideFlags: 0
@@ -5493,7 +5661,8 @@ GameObject:
   - component: {fileID: 1357409696}
   - component: {fileID: 1357409695}
   - component: {fileID: 1357409694}
-  m_Layer: 0
+  - component: {fileID: 1357409697}
+  m_Layer: 10
   m_Name: Flower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5586,6 +5755,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1357409692}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1357409697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1357409692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f56aca4805426034686428431f88e1fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: Flower
 --- !u!1 &1392059340
 GameObject:
   m_ObjectHideFlags: 0
@@ -5598,7 +5780,8 @@ GameObject:
   - component: {fileID: 1392059344}
   - component: {fileID: 1392059343}
   - component: {fileID: 1392059342}
-  m_Layer: 0
+  - component: {fileID: 1392059345}
+  m_Layer: 10
   m_Name: Smith
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5693,6 +5876,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1392059340}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1392059345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392059340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd6f9a58247d3f34e8bdbde4e80d49c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcName: Smith
 --- !u!1 &1394965455
 GameObject:
   m_ObjectHideFlags: 0
@@ -6027,7 +6223,8 @@ GameObject:
   - component: {fileID: 1522183966}
   - component: {fileID: 1522183965}
   - component: {fileID: 1522183964}
-  m_Layer: 0
+  - component: {fileID: 1522183967}
+  m_Layer: 10
   m_Name: Healroot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6120,6 +6317,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1522183962}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1522183967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522183962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f56aca4805426034686428431f88e1fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: Healroot
 --- !u!1001 &1539696793
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6429,7 +6639,8 @@ GameObject:
   - component: {fileID: 1702942258}
   - component: {fileID: 1702942257}
   - component: {fileID: 1702942256}
-  m_Layer: 0
+  - component: {fileID: 1702942259}
+  m_Layer: 10
   m_Name: Elder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6524,6 +6735,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1702942254}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1702942259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702942254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd6f9a58247d3f34e8bdbde4e80d49c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcName: Elder
 --- !u!1 &1715613109
 GameObject:
   m_ObjectHideFlags: 0
@@ -7491,7 +7715,8 @@ GameObject:
   - component: {fileID: 1811502878}
   - component: {fileID: 1811502877}
   - component: {fileID: 1811502876}
-  m_Layer: 0
+  - component: {fileID: 1811502879}
+  m_Layer: 10
   m_Name: Bow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7584,6 +7809,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1811502874}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1811502879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1811502874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f56aca4805426034686428431f88e1fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: Bow
 --- !u!4 &1818000368 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cd7c906592be4da4bb01f2b391449de3, type: 3}
@@ -7628,7 +7866,8 @@ GameObject:
   - component: {fileID: 1840787272}
   - component: {fileID: 1840787271}
   - component: {fileID: 1840787270}
-  m_Layer: 0
+  - component: {fileID: 1840787273}
+  m_Layer: 10
   m_Name: Shield
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7723,6 +7962,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1840787268}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1840787273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840787268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f56aca4805426034686428431f88e1fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: Shield
 --- !u!1 &1864769739
 GameObject:
   m_ObjectHideFlags: 0
@@ -7735,7 +7987,8 @@ GameObject:
   - component: {fileID: 1864769743}
   - component: {fileID: 1864769742}
   - component: {fileID: 1864769741}
-  m_Layer: 0
+  - component: {fileID: 1864769744}
+  m_Layer: 10
   m_Name: Iron
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7828,6 +8081,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1864769739}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1864769744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864769739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f56aca4805426034686428431f88e1fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: Iron
 --- !u!1 &1869676604
 GameObject:
   m_ObjectHideFlags: 0
@@ -7947,7 +8213,8 @@ GameObject:
   - component: {fileID: 1892122151}
   - component: {fileID: 1892122150}
   - component: {fileID: 1892122149}
-  m_Layer: 0
+  - component: {fileID: 1892122152}
+  m_Layer: 10
   m_Name: Hunter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8042,6 +8309,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1892122147}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1892122152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892122147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd6f9a58247d3f34e8bdbde4e80d49c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcName: Hunter
 --- !u!1 &1895934252
 GameObject:
   m_ObjectHideFlags: 0
@@ -8058,6 +8338,7 @@ GameObject:
   - component: {fileID: 1895934255}
   - component: {fileID: 1895934259}
   - component: {fileID: 1895934260}
+  - component: {fileID: 1895934261}
   m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
@@ -8173,9 +8454,9 @@ MonoBehaviour:
   maxDistance: 0.4
   isSprinting: 0
   isGrounded: 0
-  walkingSpeed: 1.5
-  runningSpeed: 2.5
-  sprintingSpeed: 5
+  walkingSpeed: 3
+  runningSpeed: 5
+  sprintingSpeed: 8
   rotationSpeed: 15
 --- !u!114 &1895934258
 MonoBehaviour:
@@ -8223,6 +8504,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 427106ce4fdd0174297df5950d474a6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1895934261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1895934252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a59793ed5ffde8479d3420fa35ef6f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionRange: 3
+  interactableLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1001 &1896899688
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8397,7 +8694,8 @@ GameObject:
   - component: {fileID: 1960483236}
   - component: {fileID: 1960483235}
   - component: {fileID: 1960483234}
-  m_Layer: 0
+  - component: {fileID: 1960483237}
+  m_Layer: 10
   m_Name: Coal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8490,6 +8788,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1960483232}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1960483237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960483232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f56aca4805426034686428431f88e1fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: Coal
 --- !u!1 &2000662028
 GameObject:
   m_ObjectHideFlags: 0
@@ -8712,7 +9023,8 @@ GameObject:
   - component: {fileID: 2016262422}
   - component: {fileID: 2016262421}
   - component: {fileID: 2016262420}
-  m_Layer: 0
+  - component: {fileID: 2016262423}
+  m_Layer: 10
   m_Name: Lumberjack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8807,6 +9119,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2016262418}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2016262423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016262418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd6f9a58247d3f34e8bdbde4e80d49c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcName: Lumberjack
 --- !u!1 &2057645893 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4100664064304600273, guid: d9911aab399ca5546a0ef88fc9fbc47c, type: 3}
@@ -8846,7 +9171,8 @@ GameObject:
   - component: {fileID: 2080811726}
   - component: {fileID: 2080811725}
   - component: {fileID: 2080811724}
-  m_Layer: 0
+  - component: {fileID: 2080811727}
+  m_Layer: 10
   m_Name: Healroot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8861,8 +9187,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2080811722}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -85.94, y: -14.57, z: -60.09}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -85.94, y: -14.57, z: -60.089996}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8939,6 +9265,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2080811722}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2080811727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080811722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f56aca4805426034686428431f88e1fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: Healroot
 --- !u!1 &2080968149
 GameObject:
   m_ObjectHideFlags: 0
