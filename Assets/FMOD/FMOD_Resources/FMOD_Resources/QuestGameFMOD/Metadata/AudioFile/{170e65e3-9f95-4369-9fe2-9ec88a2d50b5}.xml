@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{170e65e3-9f95-4369-9fe2-9ec88a2d50b5}">
+		<property name="assetPath">
+			<value>Midnight Mood STEMS DRUMS.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>246.43199999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{6009c2ab-55e5-4fca-a1dc-6114d92c124c}</destination>
+		</relationship>
+	</object>
+</objects>

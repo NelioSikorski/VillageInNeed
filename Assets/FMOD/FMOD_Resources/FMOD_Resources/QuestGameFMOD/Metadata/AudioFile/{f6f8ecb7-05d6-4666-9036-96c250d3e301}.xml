@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{f6f8ecb7-05d6-4666-9036-96c250d3e301}">
+		<property name="assetPath">
+			<value>Pebbles Footsteps SFX - Trimmed (3).wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.69997916666666671</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{6009c2ab-55e5-4fca-a1dc-6114d92c124c}</destination>
+		</relationship>
+	</object>
+</objects>
